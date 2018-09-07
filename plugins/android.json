@@ -1,0 +1,49 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "com.quintica.workwde"
+    },
+    "cordova-plugin-request-location-accuracy": {
+      "PACKAGE_NAME": "com.quintica.workwde"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "com.quintica.workwde"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.quintica.workwde"
+    },
+    "cordova-plugin-actionsheet": {
+      "PACKAGE_NAME": "com.quintica.workwde"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.quintica.workwde"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.quintica.workwde"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.quintica.workwde"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "com.quintica.workwde"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.quintica.workwde"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "com.quintica.workwde"
+    },
+    "phonegap-plugin-push": {
+      "FCM_VERSION": "11.6.2",
+      "PACKAGE_NAME": "com.quintica.workwde"
+    }
+  },
+  "dependent_plugins": {}
+}

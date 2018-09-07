@@ -1,0 +1,77 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/mindworx/Documents/Android/Final_Project/WW3-Android/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-vi/values-vi.xml",
+            "map": [
+                {
+                    "source": "/Users/mindworx/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/bd5b358d883d5e395b12829abaacefbe/res/values-vi/values-vi.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2798",
+                        "endColumns": "100",
+                        "endOffsets": "2894"
+                    }
+                },
+                {
+                    "source": "/Users/mindworx/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.2.aar/f0a0000c43c6c7d1c18a5a13dab9d19b/res/values-vi/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "283,383,577,700,805,1029,1157,1286,1526,1631,1823,1951,2169,2344,2438,2528",
+                        "endColumns": "99,193,122,104,223,127,128,239,104,191,127,217,174,93,89,105",
+                        "endOffsets": "382,576,699,804,1028,1156,1285,1525,1630,1822,1950,2168,2343,2437,2527,2633"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,209,403,530,639,863,995,1323,1563,1672,1864,1996,2214,2393,2491,2585",
+                        "endColumns": "103,193,126,108,223,131,132,239,108,191,131,217,178,97,93,109",
+                        "endOffsets": "204,398,525,634,858,990,1123,1558,1667,1859,1991,2209,2388,2486,2580,2690"
+                    }
+                },
+                {
+                    "source": "/Users/mindworx/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.6.2.aar/4fa0cecc1c7a22a128fc5d4c9c284d93/res/values-vi/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "243",
+                        "endColumns": "98",
+                        "endOffsets": "341"
+                    },
+                    "to": {
+                        "startLines": "19",
+                        "startColumns": "4",
+                        "startOffsets": "2695",
+                        "endColumns": "102",
+                        "endOffsets": "2793"
+                    }
+                },
+                {
+                    "source": "/Users/mindworx/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.2.aar/90a267ef7df61481b5e00223536178dd/res/values-vi/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "194",
+                        "endOffsets": "479"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "1128",
+                        "endColumns": "194",
+                        "endOffsets": "1318"
+                    }
+                }
+            ]
+        }
+    ]
+}
