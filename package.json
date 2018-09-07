@@ -1,0 +1,13 @@
+{
+  "name": "com.workwide.android",
+  "version": "1.10",
+  "displayName": "WorkWide",
+  "cordova": {
+    "platforms": [
+      "android"
+    ]
+  },
+  "dependencies": {
+    "cordova-android": "~7.0.0"
+  }
+}
