@@ -964,17 +964,13 @@ function showAlert(alertmessage, title, callBack_func) {
 //------------------QuinticaPassword@1-------------------------------
 /* webService Function */
 //-------------------------------------------------
-//Live
-//var webServiceUrl = "http://qwork.quintica.com/Api/";
-//Dev
-//var webServiceUrl = "http://202.129.196.133/Qmobility3/Api/";
-//Local
-//var webServiceUrl = "http://172.16.5.151/Qmobility3/Api/";
-//dev2
-//var webServiceUrl = "http://qwork-dev2.quintica.com/Api/";//192.168.1.114
-
+// ---------------------------- Demo Server Url -------------------------
 //var webServiceUrl = "http://qwork-demo.quintica.com/Api/";
+
+// ---------------------------- Live Server Url -------------------------
 //var webServiceUrl="http://app.workwidemobile.com/Api/";
+
+// ---------------------------- Local Server Url -------------------------
 var webServiceUrl="http://192.168.1.145/quintica/Api/";
 
 function QuinticaWebService(requestType, methodName, param, callBack) {
@@ -982,7 +978,7 @@ function QuinticaWebService(requestType, methodName, param, callBack) {
         if (methodName == "casorOfflineSave" || methodName == "casorOffline" || methodName == "OfflineAssset" || methodName == "task_list") {
             aflag = false;
         } else {
-            Apploadingicon("");
+            Apploadingicon("");f
 
         }
         console.log(webServiceUrl + methodName +'\n Params :'+JSON.stringify(param) );

@@ -982,7 +982,7 @@ function QuinticaWebService(requestType, methodName, param, callBack) {
         if (methodName == "casorOfflineSave" || methodName == "casorOffline" || methodName == "OfflineAssset" || methodName == "task_list") {
             aflag = false;
         } else {
-            Apploadingicon("");
+            Apploadingicon("");f
 
         }
         console.log(webServiceUrl + methodName +'\n Params :'+JSON.stringify(param) );
