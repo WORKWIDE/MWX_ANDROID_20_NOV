@@ -1,7 +1,7 @@
--injars /Users/mindworx/Documents/Android/Final_Project/WW3-Android/platforms/android/app/build/intermediates/transforms/jarMerging/release/0.jar
--outjars /Users/mindworx/Documents/Android/Final_Project/WW3-Android/platforms/android/app/build/intermediates/multi-dex/release/componentClasses.jar
+-injars /Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/transforms/jarMerging/release/0.jar
+-outjars /Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/multi-dex/release/componentClasses.jar
 
--libraryjars /Users/mindworx/Library/Android/sdk/build-tools/28.0.0/lib/shrinkedAndroid.jar
+-libraryjars /Users/mindworx/Library/Android/sdk/build-tools/28.0.3/lib/shrinkedAndroid.jar
 
 -forceprocessing
 -dontoptimize
@@ -10,7 +10,7 @@
 -dontpreverify
 -dontnote **
 -dontwarn **
--printconfiguration /Users/mindworx/Documents/Android/Final_Project/WW3-Android/platforms/android/app/build/intermediates/multi-dex/release/components.flags
+-printconfiguration /Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/multi-dex/release/components.flags
 
 
 -keep public class * extends android.app.Instrumentation {

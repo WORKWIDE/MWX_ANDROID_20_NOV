@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/mindworx/Documents/Android/Final_Project/WW3-Android/platforms/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-fr/values-fr.xml",
+            "outputFile": "/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-fr/values-fr.xml",
             "map": [
                 {
                     "source": "/Users/mindworx/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.2.aar/90a267ef7df61481b5e00223536178dd/res/values-fr/values.xml",

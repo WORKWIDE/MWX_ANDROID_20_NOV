@@ -8,40 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:535739481079:android:0381208747d23f2a",
-        "android_client_info": {
-          "package_name": "com.quintica.workwde"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "535739481079-fi4bbi96k9huaj660f6lh0398gj334ld.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyAMijP6X6yFLC8wqSon-j0PlrhjZizLVMI"
-        }
-      ],
-      "services": {
-        "analytics_service": {
-          "status": 1
-        },
-        "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
-        },
-        "ads_service": {
-          "status": 2
-        }
-      }
-    },
-    {
-      "client_info": {
         "mobilesdk_app_id": "1:535739481079:android:acd961657c3e6eea",
         "android_client_info": {
-          "package_name": "com.quintica.workwde"
+          "package_name": "com.workwide.android"
         }
       },
       "oauth_client": [

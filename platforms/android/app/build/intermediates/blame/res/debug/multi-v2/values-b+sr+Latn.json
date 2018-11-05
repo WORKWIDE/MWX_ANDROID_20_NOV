@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/mindworx/Documents/Android/Final_Project/WW3-Android/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-b+sr+Latn/values-b+sr+Latn.xml",
+            "outputFile": "/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-b+sr+Latn/values-b+sr+Latn.xml",
             "map": [
                 {
                     "source": "/Users/mindworx/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.6.2.aar/4fa0cecc1c7a22a128fc5d4c9c284d93/res/values-b+sr+Latn/values.xml",

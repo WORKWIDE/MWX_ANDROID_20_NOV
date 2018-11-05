@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.quintica.workwde"
+    package="com.workwide.android"
     android:hardwareAccelerated="true"
-    android:versionCode="20000"
-    android:versionName="2.0" >
+    android:versionCode="20400"
+    android:versionName="2.4" >
 
     <uses-sdk
         android:minSdkVersion="19"
@@ -31,10 +31,10 @@
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <permission
-        android:name="com.quintica.workwde.permission.C2D_MESSAGE"
+        android:name="com.workwide.android.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.quintica.workwde.permission.C2D_MESSAGE" /> <!-- for android -->
+    <uses-permission android:name="com.workwide.android.permission.C2D_MESSAGE" /> <!-- for android -->
     <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
     <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
     <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
@@ -64,7 +64,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true" >
         <activity
-            android:name="com.quintica.workwde.MainActivity"
+            android:name="com.workwide.android.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
             android:label="@string/activity_name"
             android:launchMode="singleTop"
@@ -80,7 +80,7 @@
 
         <provider
             android:name="android.support.v4.content.FileProvider"
-            android:authorities="com.quintica.workwde.provider"
+            android:authorities="com.workwide.android.provider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data
@@ -91,7 +91,7 @@
         <activity
             android:name="com.adobe.phonegap.push.PushHandlerActivity"
             android:exported="true"
-            android:permission="com.quintica.workwde.permission.PushHandlerActivity" />
+            android:permission="com.workwide.android.permission.PushHandlerActivity" />
 
         <receiver android:name="com.adobe.phonegap.push.BackgroundActionButtonHandler" />
         <receiver android:name="com.adobe.phonegap.push.PushDismissedHandler" />
@@ -154,7 +154,7 @@
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
 
-                <category android:name="com.quintica.workwde" />
+                <category android:name="com.workwide.android" />
             </intent-filter>
         </receiver>
         <!--
@@ -171,7 +171,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.quintica.workwde.firebaseinitprovider"
+            android:authorities="com.workwide.android.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
 
