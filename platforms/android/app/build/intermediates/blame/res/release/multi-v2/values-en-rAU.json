@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/mindworx/Documents/Android/Final_Project/WW3-Android/platforms/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-en-rAU/values-en-rAU.xml",
+            "outputFile": "/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-en-rAU/values-en-rAU.xml",
             "map": [
                 {
                     "source": "/Users/mindworx/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/bd5b358d883d5e395b12829abaacefbe/res/values-en-rAU/values-en-rAU.xml",

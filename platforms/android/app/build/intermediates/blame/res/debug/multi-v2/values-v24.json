@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/mindworx/Documents/Android/Final_Project/WW3-Android/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+            "outputFile": "/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
                     "source": "/Users/mindworx/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/ed1e27b8e8aa11c4b9cb28d83197b54e/res/values-v24/values-v24.xml",

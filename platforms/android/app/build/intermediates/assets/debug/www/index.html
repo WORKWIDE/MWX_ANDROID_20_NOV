@@ -21,7 +21,7 @@
    <script src="js/bootstrap.js"></script>
    <!--<link rel="stylesheet" type="text/css" href="css/jquery-ui.css">-->
    <!--<script src="js/jquery-ui.js"></script>-->
-
+   <script src="js/pulltorefresh.js" type="text/javascript"></script>
    <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
    <script>
          // Initialize Firebase
@@ -192,6 +192,9 @@
                <p class="fsename"></p>
             </a>
          </li>
+
+         <li data-icon="false"><a href="#panel-fixed-page2" onclick="onDutyCall()" class="textColor panelUl">On duty <div class="toggle_center"><div class="toggle-button toggle-button-selected"><span></span></div></div></a></li>
+
          <li data-icon="false" onclick="changePage('#Accepted_tasks_page','slide', true);"><a href="#panel-fixed-page2" class="textColor panelUl">Task</a></li>
          <li data-icon="false" onclick="changePage('#Completed_Maintasklist','slide', true);"><a href="#panel-fixed-page2" class="textColor panelUl">History</a></li>
          <li data-icon="false" onclick="changePage('#Pending_list','slide', true);"><a href="#panel-fixed-page2" class="textColor panelUl">On Hold</a></li>
@@ -883,7 +886,12 @@
 </div>
 
 <!--end of Main Signature and feedback view page  Accepted  Task Page-->
+
+
+
+
 <!--===============================================================================================================================// -->
+
 <!--Start Offline landing Task page-->
 <div data-role="page" class="bgcolor" id="offline_Landingpage">
    <div data-role="header" data-position="fixed">
@@ -898,7 +906,7 @@
       </center>
       <h4 class="textSize">Task details</h4>
       <ul data-role="listview" data-inset="true">
-         <li data-icon="false"><a href="#offline_Accepted_view_page" data-transition="slide" class="textColor" onclick="">Current task in-progress <span id="offline_current" class="ui-li-count">0</span></a></li>
+         <li data-icon="false"><a href="#" onclick="offline_Accepted_view_page();" data-transition="slide" class="textColor" onclick="">Current task in-progress <span id="offline_current" class="ui-li-count">0</span></a></li>
       </ul>
       <ul data-role="listview" data-inset="true">
          <li data-icon="false"><a href="#Offline_Assigned_tasklist_page" class="textColor" data-transition="slide">Total tasks assigned <span class="ui-li-count" id="offline_Assigned">0</span></a></li>
@@ -1005,7 +1013,7 @@
 <div data-role="page" class="bgcolor" id="View_page_for_offline_Assigned_task">
    <div data-role="header" data-position="fixed">
       <h1>View</h1>
-      <a href="#" onclick="backNavigation();" class="ui-btn ui-nodisc-icon icon-border ui-alt-icon ui-icon-carat-l ui-btn-icon-notext" data-transition="slide" data-direction="reverse">Back</a>
+      <a href="#" onclick="backNavigation();" class="ui-btn ui-nodisc-icon icon-border ui-alt-icon ui-icon-myicon5 ui-btn-icon-notext" data-transition="slide" data-direction="reverse">Back</a>
    </div>
    <!-- /header -->
    <div data-role="main" class="pagemargin">

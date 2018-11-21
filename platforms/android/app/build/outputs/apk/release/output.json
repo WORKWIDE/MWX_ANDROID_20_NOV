@@ -1,1 +1,1 @@
-[{"outputType":{"type":"APK"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":20000},"path":"app-release-unsigned.apk","properties":{"packageId":"com.quintica.workwde","split":"","minSdkVersion":"19"}}]
+[{"outputType":{"type":"APK"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":20400},"path":"app-release-unsigned.apk","properties":{"packageId":"com.workwide.android","split":"","minSdkVersion":"19"}}]

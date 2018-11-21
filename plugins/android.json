@@ -8,41 +8,41 @@
   },
   "installed_plugins": {
     "cordova-plugin-camera": {
-      "PACKAGE_NAME": "com.quintica.workwde"
+      "PACKAGE_NAME": "com.workwide.android"
     },
     "cordova-plugin-request-location-accuracy": {
-      "PACKAGE_NAME": "com.quintica.workwde"
+      "PACKAGE_NAME": "com.workwide.android"
     },
     "cordova-plugin-dialogs": {
-      "PACKAGE_NAME": "com.quintica.workwde"
+      "PACKAGE_NAME": "com.workwide.android"
     },
     "cordova-plugin-statusbar": {
-      "PACKAGE_NAME": "com.quintica.workwde"
+      "PACKAGE_NAME": "com.workwide.android"
     },
     "cordova-plugin-actionsheet": {
-      "PACKAGE_NAME": "com.quintica.workwde"
+      "PACKAGE_NAME": "com.workwide.android"
     },
     "cordova-plugin-splashscreen": {
-      "PACKAGE_NAME": "com.quintica.workwde"
+      "PACKAGE_NAME": "com.workwide.android"
     },
     "cordova-plugin-device": {
-      "PACKAGE_NAME": "com.quintica.workwde"
+      "PACKAGE_NAME": "com.workwide.android"
     },
     "cordova-plugin-file": {
-      "PACKAGE_NAME": "com.quintica.workwde"
+      "PACKAGE_NAME": "com.workwide.android"
     },
     "cordova-plugin-geolocation": {
-      "PACKAGE_NAME": "com.quintica.workwde"
+      "PACKAGE_NAME": "com.workwide.android"
     },
     "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "com.quintica.workwde"
+      "PACKAGE_NAME": "com.workwide.android"
     },
     "cordova-plugin-network-information": {
-      "PACKAGE_NAME": "com.quintica.workwde"
+      "PACKAGE_NAME": "com.workwide.android"
     },
     "phonegap-plugin-push": {
       "FCM_VERSION": "11.6.2",
-      "PACKAGE_NAME": "com.quintica.workwde"
+      "PACKAGE_NAME": "com.workwide.android"
     }
   },
   "dependent_plugins": {}

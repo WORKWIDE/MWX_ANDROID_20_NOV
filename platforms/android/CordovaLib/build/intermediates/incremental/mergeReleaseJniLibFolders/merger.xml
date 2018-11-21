@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/mindworx/Documents/Android/Final_Project/WW3-Android/platforms/android/CordovaLib/src/main/jniLibs"/></dataSet><dataSet config="release"><source path="/Users/mindworx/Documents/Android/Final_Project/WW3-Android/platforms/android/CordovaLib/src/release/jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/CordovaLib/src/main/jniLibs"/></dataSet><dataSet config="release"><source path="/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/CordovaLib/src/release/jniLibs"/></dataSet></merger>
