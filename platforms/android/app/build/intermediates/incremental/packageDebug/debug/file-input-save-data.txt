@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Nov 01 18:56:10 IST 2018
+#Mon Nov 12 12:09:14 IST 2018
 20.base=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/assets/debug
 143.base=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/assets/debug
 340.file=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/res/debug/resources-debug.ap_/res/drawable-hdpi-v4/common_google_signin_btn_text_light_normal_background.9.png
