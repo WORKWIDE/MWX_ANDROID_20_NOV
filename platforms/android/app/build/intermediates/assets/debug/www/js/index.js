@@ -731,6 +731,7 @@ $(document).on("pageshow", function(event, data) {
             $("#offline_imageprofile_one").css("display", "block");
             $(".fsename").html(localStorage.getItem("name"));
             $(".profile_fsename").html(localStorage.getItem("name"));
+             $("#offline_imageprofile_one").css("display", "block");
             var img = document.getElementById("offline_imageprofile_one");
             img.src = "";
             img.src = cordova.file.applicationStorageDirectory + "files/files/" + "entity.png";
@@ -991,20 +992,24 @@ function showAlert(alertmessage, title, callBack_func) {
 /* webService Function */
 //-------------------------------------------------
 // ---------------------------- Demo Server Url -------------------------
-//var webServiceUrl = "http://qwork-demo.quintica.com/Api/";
+var webServiceUrl = "http://qwork-demo.quintica.com/Api/";
 
 // ---------------------------- Live Server Url -------------------------
 //var webServiceUrl="http://app.workwidemobile.com/Api/";
 
 // ---------------------------- Local Server Url -------------------------
-var webServiceUrl="http://192.168.1.149/quintica/Api/";
+//var webServiceUrl="http://192.168.1.149/quintica/Api/";
 
+//var webServiceUrl="http://192.168.1.117/quintica_www/Api/";
 // ---------------------------- Test Server Url -------------------------
 //var webServiceUrl="http://35.187.66.19/api";
 
 // ---------------------------- Test Server Url -------------------------
 //var webServiceUrl="http://qwork-dev2.quintica.com/Api/";
 
+
+// data: JSON.stringify(param),
+// contentType: "application/json",
 function QuinticaWebService(requestType, methodName, param, callBack) {
     errorHandling(function() {
         if (methodName == "casorOfflineSave" || methodName == "casorOffline" || methodName == "OfflineAssset" || methodName == "task_list") {
@@ -1022,7 +1027,6 @@ function QuinticaWebService(requestType, methodName, param, callBack) {
                  url: webServiceUrl + methodName,
                  timeout:60000*2,
                  data: param,
-
 
                  }).done(function(message){
                          console.log(webServiceUrl + methodName + JSON.stringify(message));

@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Nov 12 12:09:14 IST 2018
+#Wed Nov 21 12:14:01 IST 2018
 20.base=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/assets/debug
 143.base=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/assets/debug
 340.file=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/res/debug/resources-debug.ap_/res/drawable-hdpi-v4/common_google_signin_btn_text_light_normal_background.9.png
@@ -636,7 +636,7 @@
 103.file=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/assets/debug/www/css/jquery.mobile-1.4.5/images/icons-png/action-black.png
 289.base=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/assets/debug
 136.file=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/assets/debug/www/img/plus-2.png
-307.file=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/res/debug/resources-debug.ap_/res/drawable-mdpi-v4/common_google_signin_btn_text_light_normal_background.9.png
+307.file=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/res/debug/resources-debug.ap_/res/layout/notification_media_cancel_action.xml
 46.file=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/assets/debug/www/css/jquery.mobile-1.4.5/images/icons-svg/info-white.svg
 169.file=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/assets/debug/www/css/jquery.mobile-1.4.5/images/icons-svg/location-white.svg
 362.set=ANDROID_RESOURCE
@@ -1137,7 +1137,7 @@ count=403
 102.file=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/assets/debug/www/img/logo-quintica.png
 288.base=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/assets/debug
 135.file=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/assets/debug/www/css/jquery.mobile-1.4.5/images/icons-png/heart-black.png
-306.file=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/res/debug/resources-debug.ap_/res/layout/notification_media_cancel_action.xml
+306.file=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/res/debug/resources-debug.ap_/res/drawable-mdpi-v4/common_google_signin_btn_text_light_normal_background.9.png
 45.file=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/assets/debug/www/css/jquery.mobile-1.4.5/images/icons-svg/arrow-u-l-black.svg
 168.file=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/assets/debug/www/plugins/cordova-plugin-file/www/FileReader.js
 352.set=ASSET
