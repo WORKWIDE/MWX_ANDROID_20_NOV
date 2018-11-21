@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Nov 06 14:26:55 IST 2018
+#Tue Nov 20 17:40:39 IST 2018
 20.base=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/assets/release
 143.base=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/assets/release
 340.file=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/assets/release/www/css/jquery.mobile-1.4.5/images/icons-svg/arrow-d-l-black.svg
@@ -359,7 +359,7 @@
 63.base=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/assets/release
 186.base=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/assets/release
 80.file=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/assets/release/www/css/jquery.mobile-1.4.5/images/icons-svg/arrow-u-black.svg
-383.file=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/res/release/resources-release.ap_/res/drawable-hdpi-v4/common_full_open_on_phone.png
+383.file=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/res/release/resources-release.ap_/res/drawable/common_google_signin_btn_text_dark_focused.xml
 44.set=ASSET
 2.file=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/assets/release/www/css/jquery.mobile-1.4.5/images/icons-png/arrow-l-black.png
 96.base=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/assets/release
@@ -437,7 +437,7 @@
 288.set=ASSET
 211.set=ASSET
 254.base=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/assets/release
-271.file=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/res/release/resources-release.ap_/res/drawable-port-mdpi-v4/screen.png
+271.file=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/res/release/resources-release.ap_/res/xml/provider_paths.xml
 166.set=ASSET
 101.file=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/assets/release/www/plugins/cordova-plugin-file/www/FileEntry.js
 287.base=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/assets/release
@@ -508,7 +508,7 @@
 245.file=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/assets/release/www/css/jquery.mobile-1.4.5/images/ajax-loader.gif
 281.set=ASSET
 108.file=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/assets/release/www/css/jquery.mobile-1.4.5/images/icons-png/bars-white.png
-18.file=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/res/release/resources-release.ap_/res/drawable/notification_tile_bg.xml
+18.file=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/res/release/resources-release.ap_/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png
 142.base=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/assets/release
 52.base=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/res/release/resources-release.ap_
 56.set=ANDROID_RESOURCE
@@ -583,7 +583,7 @@
 10.file=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/assets/release/www/css/jquery.mobile-1.4.5/images/icons-png/plus-white.png
 313.file=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/assets/release/www/css/jquery.mobile-1.4.5/images/icons-svg/refresh-white.svg
 26.base=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/assets/release
-175.file=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/res/release/resources-release.ap_/res/drawable/notification_icon_background.xml
+175.file=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/res/release/resources-release.ap_/res/drawable-mdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png
 346.file=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/assets/release/www/css/jquery.mobile-1.4.5/images/icons-svg/arrow-u-l-white.svg
 59.base=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/assets/release
 377.set=ANDROID_RESOURCE
@@ -853,7 +853,7 @@
 185.base=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/transforms/mergeJavaRes/release/0.jar
 62.base=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/assets/release
 390.set=ASSET
-382.file=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/res/release/resources-release.ap_/res/drawable/common_google_signin_btn_text_dark_focused.xml
+382.file=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/res/release/resources-release.ap_/res/drawable-hdpi-v4/common_full_open_on_phone.png
 34.set=ASSET
 1.file=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/res/release/resources-release.ap_/res/drawable-xhdpi-v4/notification_bg_normal.9.png
 95.base=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/assets/release
@@ -945,7 +945,7 @@
 390.base=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/assets/release
 278.set=ASSET
 201.set=ASSET
-270.file=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/res/release/resources-release.ap_/res/xml/provider_paths.xml
+270.file=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/res/release/resources-release.ap_/res/drawable-port-mdpi-v4/screen.png
 253.base=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/res/release/resources-release.ap_
 156.set=ASSET
 100.file=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/assets/release/www/img/workwide_logo.png
@@ -1021,7 +1021,7 @@
 107.file=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/res/release/resources-release.ap_/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png
 3.set=ANDROID_RESOURCE
 194.set=ANDROID_RESOURCE
-17.file=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/res/release/resources-release.ap_/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png
+17.file=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/res/release/resources-release.ap_/res/drawable/notification_tile_bg.xml
 141.base=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/res/release/resources-release.ap_
 46.set=ASSET
 51.base=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/assets/release
@@ -1089,7 +1089,7 @@ count=402
 115.base=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/assets/release
 312.file=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/res/release/resources-release.ap_/res/drawable-hdpi-v4/googleg_standard_color_18.png
 25.base=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/res/release/resources-release.ap_
-174.file=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/res/release/resources-release.ap_/res/drawable-mdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png
+174.file=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/res/release/resources-release.ap_/res/drawable/notification_icon_background.xml
 345.file=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/assets/release/www/css/download.png
 58.base=/Users/mindworx/Documents/Android/Backup_WW_Android_2_oct_2018/WW3-Android/platforms/android/app/build/intermediates/assets/release
 367.set=ASSET

@@ -194,7 +194,7 @@ function PushNotificationRegistration() {
          console.log("foreground" + data);
         if (data.additionalData.foreground) {
             console.log("foreground" + data);
-            notification_counts_list();
+            notification_counts_list(1);
             var x = document.getElementById("snackbar").text == ""
             x.className = "show";
             setTimeout(function() {
@@ -220,7 +220,7 @@ function PushNotificationRegistration() {
 
 
 
-function notification_counts_list() {
+function notification_counts_list(counterCall) {
 
     var parameters = {
         TOKEN: localStorage.getItem("TOKEN")
@@ -238,7 +238,9 @@ function notification_counts_list() {
                 document.getElementById("notification_list_count").innerHTML = "";
                 document.getElementById("notification_list_count").innerHTML = response.count;
                 var countss = response.count;
-                listcounts();
+                if(counterCall==1){
+                   listcounts();
+                }
             }
 
 
@@ -510,7 +512,7 @@ function getDateTime() {
 $(document).on("pageshow", function(event, data) {
     $(".pagemargin").removeClass("addOpacity");
     $(".versioncode").html("");
-    $(".versioncode").html("Version 2.4");
+    $(".versioncode").html("Version 2.5");
     localStorage.setItem("previous_page_id", "");
     localStorage.setItem("previous_page_id", data.prevPage.attr('id'));
     var activePage = $.mobile.pageContainer.pagecontainer("getActivePage");
@@ -552,7 +554,7 @@ $(document).on("pageshow", function(event, data) {
             listcounts();
             current_position();
             localStorage.setItem("Pending_option", "");
-            notification_counts_list();
+            notification_counts_list(0);
             localStorage.setItem("Notification_value_to_View_page", "");
             isOfflineAppWorking=false;
             try{
@@ -568,7 +570,7 @@ $(document).on("pageshow", function(event, data) {
                  clearInterval(updateMapInterval);
                  updateMapInterval=null;
                  }
-            }, 20000);
+            }, 2000);
              }catch(error){}
 
                 try{
@@ -729,6 +731,7 @@ $(document).on("pageshow", function(event, data) {
             $("#offline_imageprofile_one").css("display", "block");
             $(".fsename").html(localStorage.getItem("name"));
             $(".profile_fsename").html(localStorage.getItem("name"));
+             $("#offline_imageprofile_one").css("display", "block");
             var img = document.getElementById("offline_imageprofile_one");
             img.src = "";
             img.src = cordova.file.applicationStorageDirectory + "files/files/" + "entity.png";
@@ -997,12 +1000,16 @@ var webServiceUrl="http://app.workwidemobile.com/Api/";
 // ---------------------------- Local Server Url -------------------------
 //var webServiceUrl="http://192.168.1.149/quintica/Api/";
 
+//var webServiceUrl="http://192.168.1.117/quintica_www/Api/";
 // ---------------------------- Test Server Url -------------------------
 //var webServiceUrl="http://35.187.66.19/api";
 
 // ---------------------------- Test Server Url -------------------------
 //var webServiceUrl="http://qwork-dev2.quintica.com/Api/";
 
+
+// data: JSON.stringify(param),
+// contentType: "application/json",
 function QuinticaWebService(requestType, methodName, param, callBack) {
     errorHandling(function() {
         if (methodName == "casorOfflineSave" || methodName == "casorOffline" || methodName == "OfflineAssset" || methodName == "task_list") {
@@ -1020,7 +1027,6 @@ function QuinticaWebService(requestType, methodName, param, callBack) {
                  url: webServiceUrl + methodName,
                  timeout:60000*2,
                  data: param,
-
 
                  }).done(function(message){
                          console.log(webServiceUrl + methodName + JSON.stringify(message));
@@ -1238,7 +1244,7 @@ function loginIn() {
             "password": "" + $("#password").val().trim() + "",
             device_id: localStorage.getItem("DevieToken"),
             device_OS: device.platform,
-            versioncode: "2.4"
+            versioncode: "2.5"
         };
         QuinticaWebService("POST", "login", parameters, function(response) {
             console.log(parameters);
@@ -1297,7 +1303,7 @@ function loginIn() {
                    updateMapInterval2 = setInterval(function(){ get_current_position() }, 60000*2);
                    get_current_position();
                 }
-                }, 20000);
+                }, 2000);
             }catch(error){}
                 changePage("#Landingpage", "slide", false);
                  idd=0;
@@ -4747,10 +4753,11 @@ function dropdownDependson(id, d_id) {
                     var selecctvalue = response.data[i].replace(/'/g, "");
                     option += "<option value='" + selecctvalue + "'>" + response.data[i] + "</option>";
                 }
+                $("#" + d_id).html("");
+                $("#" + d_id).append(option);
+                $("#" + d_id).selectmenu("refresh", true);
             }
-            $("#" + d_id).html("");
-            $("#" + d_id).append(option);
-            $("#" + d_id).selectmenu("refresh", true);
+
             hideLoadingIcon();
 
         } else {
@@ -7541,18 +7548,18 @@ function getFileName(path) {
 
      function success_Workwide(tx) {
 
-     var res = "CREATE TABLE IF NOT EXISTS AttachmentDocInfo( task_id TEXT, attachment_doc_id TEXT, attachment_doc_info TEXT, latitude TEXT, langitude TEXT, isSelectedFrom TEXT )";
+     var res = "CREATE TABLE IF NOT EXISTS AttachmentDocInfo( task_id TEXT, attachment_doc_id TEXT, attachment_doc_info TEXT, latitude TEXT, langitude TEXT, isSelectedFrom TEXT, imageId TEXT, synced TEXT )";
 
                                                                          console.log(res+" VAlue : "+isUpdate);
      //Code for table creation
      tx.executeSql(res);
      var query="";
      if(isUpdate){
-        query="UPDATE AttachmentDocInfo SET task_id = '"+taskId+"' , attachment_doc_id = '"+attachmentInfoId+"', attachment_doc_info = '"+attachmentDocInformation+"', latitude= '"+latitude+"', langitude = '"+langitude+"', isSelectedFrom = '"+isSelectedFrom+"' WHERE attachment_doc_id = '"+attachmentInfoId+"' ";
+        query="UPDATE AttachmentDocInfo SET task_id = '"+taskId+"' , attachment_doc_id = '"+attachmentInfoId+"', attachment_doc_info = '"+attachmentDocInformation+"', latitude= '"+latitude+"', langitude = '"+langitude+"', isSelectedFrom = '"+isSelectedFrom+"', synced = '0' WHERE attachment_doc_id = '"+attachmentInfoId+"' ";
 
      }
     else{
-         query="INSERT INTO AttachmentDocInfo(task_id , attachment_doc_id, attachment_doc_info, latitude, langitude, isSelectedFrom ) VALUES ('"+taskId+"' , '"+attachmentInfoId+"' , '"+attachmentDocInformation+"' , '"+latitude+"' , '"+langitude+"' , '"+isSelectedFrom+"' )";
+         query="INSERT INTO AttachmentDocInfo(task_id , attachment_doc_id, attachment_doc_info, latitude, langitude, isSelectedFrom, imageId, synced ) VALUES ('"+taskId+"' , '"+attachmentInfoId+"' , '"+attachmentDocInformation+"' , '"+latitude+"' , '"+langitude+"' , '"+isSelectedFrom+"' , '' , '0' )";
     }
      console.log(query);
      tx.executeSql(query);
@@ -7613,19 +7620,25 @@ function getFileName(path) {
         if(JSON.parse(results.rows.item(0).attachment_doc_info).length>=1){
          imgData=JSON.parse(results.rows.item(0).attachment_doc_info);
         }
+        if(results.rows.item(0).synced=="1")
+        {
+            loopval=loopval+1;
+            getOfflineSavedImage();
+            return;
+        }
         var parameters = {
            TOKEN: localStorage.getItem("TOKEN"),
            task_id: results.rows.item(0).task_id,
            latitude: results.rows.item(0).latitude,
            langitude: results.rows.item(0).langitude,
-           imageId:'',
+           imageId:results.rows.item(0).imageId,
            attachmentInfo: imgData,
            customer_document: AttachedImgData,
            upload_from_gallary: results.rows.item(0).isSelectedFrom,
            offline_mode:"1"
 
         };
-        upload_offline_Images(parameters);
+        upload_offline_Images(parameters, results.rows.item(0).attachment_doc_id );
         }catch(error){
             loopval=loopval+1;
             getOfflineSavedImage();
@@ -7633,13 +7646,18 @@ function getFileName(path) {
         }
      }
 }
-function upload_offline_Images(parameters){
+function upload_offline_Images(parameters, attachment_doc_id){
    QuinticaWebService("POST", "updateTaskCustomerDocument", parameters, function(response) {
                 if(response.code == "1") {
                   console.log("ATTACHMENT UPLOADED SUCCESSFULLY ");
                  try{
                    loopval=loopval+1;
                    getOfflineSavedImage();
+                   if(response.update!=null || response.update!="null" || response.update!="0"){
+                      updateAttachmentimageId(response.update, attachment_doc_id );
+                   }else{
+                      updateAttachmentimageId("0", attachment_doc_id );
+                   }
                    //deleteTaskAttachmentInfo();
                }catch(err){}
               } else {
@@ -7658,6 +7676,27 @@ function upload_offline_Images(parameters){
               }
    });
 }
+
+
+ function updateAttachmentimageId(imageId, attachmentInfoId ){
+     var db = window.openDatabase("database_Workwide", "1.0", "database_Workwide_table", 2 * 1024 * 1024)
+     db.transaction(success_Workwide, error_Workwide);
+
+     function success_Workwide(tx) {
+
+       var query="";
+        if(imageId=="0"){
+            query="UPDATE AttachmentDocInfo SET synced = '1' WHERE attachment_doc_id = '"+attachmentInfoId+"' ";
+        }
+        else{
+            query="UPDATE AttachmentDocInfo SET imageId = '"+imageId+"', synced = '1' WHERE attachment_doc_id = '"+attachmentInfoId+"' ";
+        }
+        console.log("UPDATE IMAGE ID : "+query);
+        tx.executeSql(query);
+
+    }
+
+ }
 
 //----------------------------- End Offline Attachment Information ----------------------------------------
 
